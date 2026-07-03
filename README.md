@@ -4,9 +4,11 @@
 
 # Awesome Data Science Interview Q&A 🎯
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<!-- SEO Metadata -->
+<!-- Keywords: Data Science Interview Questions, Machine Learning Q&A, Deep Learning Interview, SQL Interview Prep, Python Coding, A/B Testing, MLOps, System Design, Data Analyst prep, ML Engineer technical interview -->
+<!-- Description: A curated, no-fluff collection of Data Science and Machine Learning interview questions and answers organized by topic. -->
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated, no-fluff collection of **Data Science / Machine Learning interview questions with answers**, organized by topic. Built for candidates prepping for DS, ML Engineer, Applied Scientist, and Analytics roles — and for interviewers building question banks. 🚀
 
