@@ -1,12 +1,16 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Data Science Interview Q&A Banner" width="100%">
+</p>
+
 # Awesome Data Science Interview Q&A 🎯
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A curated, no-fluff collection of **Data Science / Machine Learning interview questions with answers**, organized by topic. Built for candidates prepping for DS, ML Engineer, Applied Scientist, and Analytics roles — and for interviewers building question banks.
+A curated, no-fluff collection of **Data Science / Machine Learning interview questions with answers**, organized by topic. Built for candidates prepping for DS, ML Engineer, Applied Scientist, and Analytics roles — and for interviewers building question banks. 🚀
 
-Every answer aims to be **concise, correct, and interview-ready** — the kind of answer that would actually land well in a 45-minute technical round, not a textbook chapter.
+Every answer aims to be **concise, correct, and interview-ready** — the kind of answer that would actually land well in a 45-minute technical round, not a textbook chapter. 💡
 
 > ⭐ Star this repo if it helps your prep. PRs adding new questions, fixing answers, or improving explanations are very welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -14,7 +18,7 @@ Every answer aims to be **concise, correct, and interview-ready** — the kind o
 
 ## 📚 Table of Contents
 
-| # | Topic | Questions | Difficulty Mix |
+| # | 🗂️ Topic | ❓ Questions | ⚡ Difficulty Mix |
 |---|-------|-----------|-----------------|
 | 01 | [Statistics & Probability](topics/01-statistics-probability.md) | 15 | Easy → Hard |
 | 02 | [Machine Learning (Classical)](topics/02-machine-learning.md) | 18 | Easy → Hard |
@@ -29,25 +33,25 @@ Every answer aims to be **concise, correct, and interview-ready** — the kind o
 | 11 | [Behavioral & Resume-based](topics/11-behavioral.md) | 12 | Easy → Medium |
 | 12 | [System Design & MLOps](topics/12-system-design-mlops.md) | 10 | Hard |
 
-**Total: ~157 questions** in v1, growing with community contributions.
+**Total: ~157 questions** in v1, growing with community contributions. 📈
 
 ---
 
 ## 🧭 How to Use This Repo
 
-- **Cramming for an interview next week?** Start with the topic weighted heaviest for your target role (see below), and read the "Follow-up" notes — interviewers almost always dig deeper.
-- **Deep prep over weeks?** Work through every file top to bottom, and re-derive the math yourself instead of just reading the answer.
-- **Interviewing candidates?** Use these as a base question bank — mix easy/medium/hard per round, and use the follow-ups to gauge depth.
+- 🗓️ **Cramming for an interview next week?** Start with the topic weighted heaviest for your target role (see below), and read the "Follow-up" notes — interviewers almost always dig deeper.
+- 🧠 **Deep prep over weeks?** Work through every file top to bottom, and re-derive the math yourself instead of just reading the answer.
+- 👥 **Interviewing candidates?** Use these as a base question bank — mix easy/medium/hard per round, and use the follow-ups to gauge depth.
 
-### Suggested focus by role
+### 🎯 Suggested focus by role
 
-| Role | Prioritize |
+| 💼 Role | 🔍 Prioritize |
 |------|------------|
-| Data Scientist (Product) | Stats/Probability, A/B Testing, Case Studies, SQL |
-| Data Scientist (ML-heavy) | Classical ML, Deep Learning, Python, System Design |
-| ML Engineer | Deep Learning, System Design/MLOps, Python & Coding, DSA |
-| Data Analyst | SQL, Stats/Probability, Case Studies, Python |
-| Applied/Research Scientist | Deep Learning, NLP, Stats/Probability, ML theory |
+| 📊 Data Scientist (Product) | Stats/Probability, A/B Testing, Case Studies, SQL |
+| 🤖 Data Scientist (ML-heavy) | Classical ML, Deep Learning, Python, System Design |
+| ⚙️ ML Engineer | Deep Learning, System Design/MLOps, Python & Coding, DSA |
+| 📈 Data Analyst | SQL, Stats/Probability, Case Studies, Python |
+| 🔬 Applied/Research Scientist | Deep Learning, NLP, Stats/Probability, ML theory |
 
 ---
 

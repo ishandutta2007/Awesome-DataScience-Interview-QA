@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Node/Line Gradients -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Abstract Dynamic Graphics (Glows & Nodes) -->
+  <!-- Huge glow in background -->
+  <circle cx="950" cy="200" r="250" fill="url(#glow)" />
+  <circle cx="200" cy="200" r="150" fill="url(#glow)" />
+
+  <!-- Simulated Neural Network/Data Points -->
+  <g stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.6">
+    <!-- Connecting lines -->
+    <line x1="800" y1="120" x2="900" y2="80" />
+    <line x1="900" y1="80" x2="1050" y2="150" />
+    <line x1="800" y1="120" x2="950" y2="220" />
+    <line x1="950" y1="220" x2="1050" y2="150" />
+    <line x1="950" y1="220" x2="900" y2="320" />
+    <line x1="900" y1="320" x2="1080" y2="280" />
+    <line x1="1050" y1="150" x2="1080" y2="280" />
+    <line x1="900" y1="80" x2="950" y2="220" />
+    <line x1="800" y1="120" x2="900" y2="320" />
+  </g>
+
+  <!-- Pulsing/Dynamic SVG Elements (Using standard SVG SMIL animations for dynamic aspects) -->
+  <g>
+    <!-- Nodes -->
+    <circle cx="800" cy="120" r="6" fill="#60a5fa" filter="url(#neonGlow)">
+      <animate attributeName="r" values="6;9;6" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="80" r="8" fill="#a78bfa" filter="url(#neonGlow)">
+      <animate attributeName="r" values="8;5;8" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="150" r="10" fill="#ec4899" filter="url(#neonGlow)">
+      <animate attributeName="r" values="10;13;10" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="950" cy="220" r="7" fill="#818cf8" filter="url(#neonGlow)">
+      <animate attributeName="r" values="7;10;7" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="320" r="9" fill="#3b82f6" filter="url(#neonGlow)">
+      <animate attributeName="r" values="9;6;9" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1080" cy="280" r="8" fill="#f472b6" filter="url(#neonGlow)">
+      <animate attributeName="r" values="8;11;8" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Floating Mathematical Symbols (Stats / ML Theme) -->
+  <g fill="#475569" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" opacity="0.5">
+    <text x="750" y="80">f(x)</text>
+    <text x="850" y="360">y = w·x + b</text>
+    <text x="1080" y="100">σ</text>
+    <text x="1100" y="340">μ</text>
+    <text x="980" y="70">P(A|B)</text>
+    <text x="1000" y="300">Σ</text>
+  </g>
+
+  <!-- Decorated Title & Subtitle -->
+  <g transform="translate(80, 0)">
+    <!-- Subtitle Category Badge -->
+    <rect x="0" y="100" width="220" height="32" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="110" y="121" fill="#3b82f6" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5" text-anchor="middle">INTERVIEW PREP KIT</text>
+
+    <!-- Main Title -->
+    <text x="0" y="190" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" letter-spacing="-1px">
+      Awesome Data Science
+    </text>
+    <text x="0" y="250" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" letter-spacing="-1px">
+      Interview Q&amp;A
+    </text>
+
+    <!-- Description / Tagline -->
+    <text x="0" y="300" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="18" font-weight="400">
+      A curated, no-fluff resource to ace your DS &amp; ML interviews
+    </text>
+
+    <!-- Interactive/Glow Bar -->
+    <rect x="0" y="325" width="400" height="4" rx="2" fill="url(#textGrad)" />
+  </g>
+</svg>
